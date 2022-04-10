@@ -9,4 +9,5 @@ if __name__ == "__main__":
             app_icon = "E:\Projects\water.ico",
             timeout = 12
         )
-        
+    
+        time.sleep(60*60) #makes the notification every 1 hour

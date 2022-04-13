@@ -1,3 +1,4 @@
+from email import message
 import time
 from plyer import notification
 
@@ -5,9 +6,9 @@ if __name__ == "__main__":
     while True:
         notification.notify(
             title = "hey please drink water",
-            message = "Getting enough water every day is important for your health. Drinking water can prevent dehydration, a condition that can cause unclear thinking, result in mood change, cause your body to overheat, and lead to constipation and kidney stones. Water helps your body: Keep a normal temperature",
+            message = "water is very important for body and it keeps you hydrated", #remerber to type message that is not longer than 256 char
             app_icon = "E:\Projects\water.ico",
             timeout = 12
         )
     
-        time.sleep(60*60) #makes the notification every 1 hour
+        time.sleep(6) 

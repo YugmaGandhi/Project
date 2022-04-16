@@ -1,4 +1,3 @@
-from email import message
 import time
 from plyer import notification
 
